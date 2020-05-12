@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 
 
 namespace ToDoList.Models
@@ -6,19 +7,24 @@ namespace ToDoList.Models
   public class Item
   {
 
-    public string Description {get; set;}
+    private string _description {get; set;}
     
     private static List<Item> _instances = new List<Item>{};
    
     public Item(string description)
     {
-        Description = description;
+        _description = description;
         _instances.Add(this);
     }
 
     public static List<Item> GetAll()
     {
         return _instances;
+    }
+
+    public string GetDesc()
+    {
+      return _description;
     }
     
     public static void ClearAll()
