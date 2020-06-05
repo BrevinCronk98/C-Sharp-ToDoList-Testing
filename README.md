@@ -16,7 +16,7 @@ _The purpose of this project is to create a C# web application._
 ```
 cd Desktop
 git clone https://github.com/BrevinCronk98/C-Sharp-ToDoList-Testing
-cd C-Sharp-ToDoList(or the file name you created for the main directory of the download)
+cd C-Sharp-ToDoList-Testing(or the file name you created for the main directory of the download)
 ```
 3. To view the downloaded files, open them in a text editor or IDE of your choice.
 * if you have VSCode for example, when your terminal is within the main project directory you can open all of the files with the command:
